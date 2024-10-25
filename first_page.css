@@ -234,52 +234,76 @@ display: inline;
 
 }
 
-@media only screen and (max-width: 768px) {
-    /* Adjust font size for smaller screens */
-    h1 {
-      font-size: 1.8em;
-    }
-  
-    h3, h4 {
-      font-size: 1.2em;
-    }
-  
-    p {
-      font-size: 0.9em;
-    }
-  
-    /* Stack navigation links vertically */
-    nav ul {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    /* Make images responsive */
-    .passport img {
-      width: 150px; /* Reduce image width for mobile */
-      margin: 5px;
-    }
-  
-    /* Adjust the layout of div elements */
-    .Intro, .goal, .summarize, .sidebar {
-      margin: 10px 0;
-      padding: 0 10px;
-    }
-  
-    /* Adjust footer styles for smaller screens */
-    footer {
+@media only screen and (max-width: 600px) {
+    /* Adjust wrapper or container */
+    #wrapper {
+      width: 100%;
       padding: 10px;
+    }
+  
+    /* Resize header text */
+    .header h1 {
+      font-size: 1.5em; /* Adjust header font size for smaller screens */
       text-align: center;
     }
   
-    .socials ol {
+    /* Make navigation menu items stack vertically */
+    nav ul {
       display: flex;
-      justify-content: center;
-      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
     }
   
-    .socials ol li {
+    nav ul li {
+      margin-bottom: 10px; /* Space between each menu item */
+    }
+  
+    /* Adjust images for responsiveness */
+    img {
+      max-width: 100%; /* Make images responsive */
+      height: auto; /* Maintain aspect ratio */
+    }
+  
+    /* Adjust the introduction section */
+    .Intro {
+      padding: 10px;
+    }
+  
+    /* Make the text and content more readable on mobile */
+    .properIntro, .description, .goal p {
+      font-size: 1em; /* Adjust font size */
+      line-height: 1.5;
+    }
+  
+    /* Adjust passport section for better layout */
+    .passport {
+      display: flex;
+      flex-wrap: wrap; /* Wrap images in multiple rows */
+      justify-content: space-around;
+    }
+  
+    .passport img {
+      max-width: 45%; /* Ensure images are smaller on mobile */
       margin: 5px;
+    }
+  
+    /* Footer text alignment */
+    footer .outro, footer .copyright {
+      text-align: center;
+    }
+  
+    /* Make social media icons responsive */
+    .socials ol {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 10px; /* Add some space between icons */
+    }
+  
+    .socials img {
+      width: 50px; /* Resize icons */
+      height: 50px;
     }
   }
 
