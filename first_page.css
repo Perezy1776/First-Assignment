@@ -296,14 +296,14 @@ display: inline;
     /* Make social media icons responsive */
     .socials ol {
       display: flex;
-      flex-wrap: wrap;
+      flex-wrap: nowrap;
       justify-content: center;
-      gap: 10px; /* Add some space between icons */
+      gap: 5px; /* Add some space between icons */
     }
   
-    .socials img {
-      width: 50px; /* Resize icons */
-      height: 50px;
+    .socials ol li img {
+        width: 100%; /* Ensure the images scale down to fit the container */
+        height: auto; /* Maintain aspect ratio */
     }
   }
 
@@ -321,4 +321,4 @@ display: inline;
                 width: 100%;
             }
         }
-     */
+     * 
