@@ -248,6 +248,7 @@ display: inline;
       width: 100%;
       max-width: 100%; /* Ensures no extra space is taken */
       padding: 5px; /* Slightly reduce padding for smaller screens */
+      padding-left: 2px;
     }
   
     /* Resize header text */
