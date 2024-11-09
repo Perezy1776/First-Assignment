@@ -238,7 +238,8 @@ display: inline;
     /* Adjust wrapper or container */
     #wrapper {
       width: 100%;
-      padding: 10px;
+      max-width: 100%; /* Ensures no extra space is taken */
+      padding: 5px; /* Slightly reduce padding for smaller screens */
     }
   
     /* Resize header text */
