@@ -257,9 +257,15 @@ display: inline;
     }
   
     nav ul li {
-      margin-bottom: 10px; /* Space between each menu item */
+        margin: 0 10px; /* Add space between menu items */
+        list-style: none; /* Remove bullet points */
     }
-  
+    nav ul li a {
+        text-decoration: none; /* Remove underline from links */
+        color: inherit; /* Use the existing color */
+      }
+
+
     /* Adjust images for responsiveness */
     img {
       max-width: 100%; /* Make images responsive */
