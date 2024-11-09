@@ -301,9 +301,9 @@ display: inline;
       gap: 5px; /* Add some space between icons */
     }
   
-    .socials ol li img {
-        width: 100%; /* Ensure the images scale down to fit the container */
-        height: auto; /* Maintain aspect ratio */
+    .socials img {
+      width: 50px; /* Resize icons */
+      height: 50px;
     }
   }
 
