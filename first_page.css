@@ -250,8 +250,9 @@ display: inline;
     /* Make navigation menu items stack vertically */
     nav ul {
       display: flex;
-      flex-direction: column;
-      align-items: center;
+      flex-direction: row;
+      /*align-items: center;*/
+      justify-content: center; /* Center the menu items */
       padding: 0;
     }
   
