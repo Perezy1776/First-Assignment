@@ -332,6 +332,9 @@ display: inline;
       width: 50px; /* Resize icons */
       height: 50px;
     }
+    .outro {
+        text-align: justify;
+    }
   }
 
 /* .animate {
