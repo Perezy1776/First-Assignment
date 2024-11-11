@@ -238,7 +238,7 @@ ol li {
 .outro {
 color: white;
 font-size:xx-large;
-display:block;
+display:inline-block;
 text-align: justify;
 
 }
