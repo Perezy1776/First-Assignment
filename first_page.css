@@ -239,7 +239,12 @@ ol li {
 color: white;
 font-size:xx-large;
 display:inline-block;
-text-align: justify;
+text-align: center;
+max-width: 600px;
+word-wrap: break-word;
+padding: 20px 0;
+line-height: 1.5;
+margin: 0 auto;
 
 }
 
